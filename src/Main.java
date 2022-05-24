@@ -18,7 +18,9 @@ public class Main {
 
         System.out.println(" -------------------------------- ");
 
-        mixture.addSubstanceProportional(new Substance("voda", 50));
+        mixture.addSubstance(new Substance("voda", 50), MixtureAddMode.KEEP_PROCENTAGE.id);
         mixture.displayValues();
+
+        new GUI();
     }
 }
