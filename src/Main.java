@@ -21,6 +21,6 @@ public class Main {
         mixture.addSubstance(new Substance("voda", 50), MixtureAddMode.KEEP_PROCENTAGE.id);
         mixture.displayValues();
 
-        new GUI();
+        new MainGUI();
     }
 }
